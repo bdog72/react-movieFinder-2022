@@ -1,14 +1,8 @@
 //
 //
 
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className='App'>
-      <h1>Bozo</h1>
-    </div>
-  );
-}
+const App = () => <div>Bozo!</div>;
 
 export default App;
