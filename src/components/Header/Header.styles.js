@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background-color: var(--darkGrey);
-  padding: 20px;
+  padding: 10px 20px;
 `;
 
 export const Content = styled.div`
