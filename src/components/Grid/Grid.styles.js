@@ -1,6 +1,3 @@
-//
-//
-
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -11,7 +8,7 @@ export const Wrapper = styled.div`
   h1 {
     color: var(--medGrey);
 
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       font-size: var(--fontBig);
     }
   }

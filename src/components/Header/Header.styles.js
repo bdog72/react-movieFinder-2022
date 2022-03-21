@@ -1,11 +1,8 @@
-//
-//
-
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background-color: var(--darkGrey);
-  padding: 10px 20px;
+  background: var(--darkGrey);
+  padding: 0 20px;
 `;
 
 export const Content = styled.div`
@@ -15,24 +12,20 @@ export const Content = styled.div`
   max-width: var(--maxWidth);
   padding: 20px 0;
   margin: 0 auto;
-
-  @media (max-width: 600px) {
-    padding: 10px;
-  }
 `;
 
 export const LogoImg = styled.img`
-  width: 300px;
+  width: 200px;
 
-  @media (max-width: 600px) {
+  @media screen and (max-width: 500px) {
     width: 150px;
   }
 `;
 
 export const TMDBLogoImg = styled.img`
-  width: 200px;
+  width: 100px;
 
-  @media (max-width: 600px) {
-    width: 100px;
+  @media screen and (max-width: 500px) {
+    width: 80px;
   }
 `;

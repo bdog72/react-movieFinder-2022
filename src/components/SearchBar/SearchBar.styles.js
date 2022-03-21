@@ -1,13 +1,10 @@
-//
-//
-
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   height: 100px;
-  background-color: var(--darkGrey);
+  background: var(--darkGrey);
   padding: 0 20px;
 `;
 

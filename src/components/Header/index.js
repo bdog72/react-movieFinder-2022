@@ -1,6 +1,3 @@
-//
-//
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -13,7 +10,7 @@ const Header = () => (
   <Wrapper>
     <Content>
       <Link to='/'>
-        <LogoImg src={RMDBLogo} alt='rmdg-logo' />
+        <LogoImg src={RMDBLogo} alt='rmdb-logo' />
       </Link>
       <TMDBLogoImg src={TMDBLogo} alt='tmdb-logo' />
     </Content>

@@ -2,7 +2,6 @@
 //
 
 import { useState, useEffect } from 'react';
-
 import API from '../API';
 
 export const useMovieFetch = (movieId) => {
@@ -18,8 +17,7 @@ export const useMovieFetch = (movieId) => {
 
         const movie = await API.fetchMovie(movieId);
         const credits = await API.fetchCredits(movieId);
-
-        // Get Directors Onl
+        // Get directors only
         const directors = credits.crew.filter(
           (member) => member.job === 'Director'
         );
@@ -39,9 +37,5 @@ export const useMovieFetch = (movieId) => {
     fetchMovie();
   }, [movieId]);
 
-  return {
-    state,
-    loading,
-    error,
-  };
+  return { state, loading, error };
 };

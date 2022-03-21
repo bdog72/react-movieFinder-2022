@@ -1,6 +1,3 @@
-//
-//
-
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
@@ -20,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Abel', sans-serif;
   }
-  
+
   body {
     margin: 0;
     padding: 0;
@@ -30,12 +27,12 @@ export const GlobalStyle = createGlobalStyle`
       font-weight: 600;
       color: var(--white);
     }
-    
+
     h3 {
       font-size: 1.1rem;
       font-weight: 600;
     }
-    
+
     p {
       font-size: 1rem;
       color: var(--white);
