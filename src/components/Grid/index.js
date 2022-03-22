@@ -1,3 +1,6 @@
+//
+//
+
 import React from 'react';
 // Styles
 import { Wrapper, Content } from './Grid.styles';
